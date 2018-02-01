@@ -23,7 +23,8 @@ print(f"If I add {age}, {height}, and {weight} I get {total}.")
 #these are for converting the height and weight of the input
 conversion1 = kilogram * weight
 conversion2 = centimeter * height
+round(conversion1)
+round(conversion2)
 
-
-print(f"If I convert {height} to metric, I am " + round({conversion2}) + "centimeters tall!")
-print(f"If I convert {weight} to metric, I am " + round({conversion1}) + " kilograms!")
+print(f"If I convert {height} to metric, I am {conversion2} centimeters tall!")
+print(f"If I convert {weight} to metric, I am {conversion1} kilograms!")
